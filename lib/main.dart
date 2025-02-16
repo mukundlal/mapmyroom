@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mapmyroom/screens/home.dart';
 
 void main() {
   runApp(const MapMyRoomApp());
@@ -8,6 +9,6 @@ class MapMyRoomApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(home: RoomDetector());
   }
 }
